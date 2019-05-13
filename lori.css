@@ -58,17 +58,17 @@ i {
 /* .details {
   padding-bottom: 20px; 
 } */
-.details .transportation{
-  width: 45%;
+.details .transportation {
+  width: 35%;
   padding: 30px 20px;
 }
-.details .cargo-ownership{
-  width: 45%;
+.details .cargo-ownership {
+  width: 35%;
   padding: 30px 20px ;
-  border-left: 10px solid white;
+  /* border-left: 10px solid white; */
 }
 
-.cargo-ownership .reasons{
+.cargo-ownership .reasons {
   padding: 30px 0px 0px 0px;
 }
 
@@ -79,6 +79,29 @@ i {
 .reasons {
   padding-top: 15px;
 }
+
+/* lori-image */
+.empty {
+  height: 125px;
+}
+.image{
+  height: 200px;
+  /* border-right: 4px solid white; */
+  border-radius: 50%;
+  border: 10px solid #1e90ff;
+  background: white;
+}
+.empty2 {
+  height: 125px;
+}
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 200px;
+  width: 200px;
+}
+
 
 /* Info */
 .lori-info .contacts {
@@ -95,60 +118,15 @@ i {
 }  
 .contacts .site {
   width: 20%;
-  text-align: left;
+  text-align: right;
 }
 .contacts .phone {
   text-align: center;
+  padding-right: -3px;
   width: 40%;
 }
+ 
 
-/* Lori Image */
-#split-pane-or {
-  font-size: 2em;
-  color: white;
-  font-family: 'Open Sans', sans-serif;
-  text-align: center;
-  border-radius: 50%;
-  width: 100%;
-  position: absolute;
-  top: 50%;
-  -webkit-transform: translateY(-50%);
-  -ms-transform: translateY(-50%);
-  transform: translateY(-50%);
-}
-@media (max-width: 925px) {
-  #split-pane-or {
-    top:15%;
-  }
-}
-#split-pane-or > div img {
-  height: 3.5em;
-  border-radius: 50%;
-  border: 7px solid #1e90ff;
-  background: #ffffff;
-  height: 200px;
-  width: 200px;
-}
-@media (min-width: 500px) {
-  .col-sm-6 {
-    width: 50%;
-  }
-}
-@media (max-width: 500px) {
-  #split-pane-or {
-    position: absolute;
-    top: 50px;
-    bottom: 50px;
-  }
-  #split-pane-or > div img {
-    height:2em;
-  }
-}
-@media(min-width: 500px) {
-  #split-pane-or {
-    font-size: 3em;
-  }
-}
 
 /* footer */
 .lori-footer {
