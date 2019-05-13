@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Heebo');
+@import url('https://fonts.googleapis.com/css?family=Lato');
 
 html, body {
   margin: 0;
@@ -7,7 +8,8 @@ html, body {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  font-family: 'Heebo', serif;
+  /* font-family: 'Heebo', serif; */
+  font-family: 'Lato', sans-serif;
 }
 
 /* Header content */
@@ -48,6 +50,12 @@ html, body {
   color: white;
 }
 
+.detail-info {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 14px;
+}
+
 i {
   text-align: left;
   font-size: 35px;
@@ -60,7 +68,7 @@ i {
 } */
 .details .transportation {
   width: 35%;
-  padding: 30px 20px;
+  padding: 30px 20px 30px 37px;
 }
 .details .cargo-ownership {
   width: 35%;
@@ -82,24 +90,38 @@ i {
 
 /* lori-image */
 .empty {
-  height: 125px;
+  min-height: 125px;
 }
 .image{
-  height: 200px;
-  /* border-right: 4px solid white; */
+  min-height: 200px;
   border-radius: 50%;
-  border: 10px solid #1e90ff;
+  border: 10px solid #2B4E61;
   background: white;
 }
 .empty2 {
-  height: 125px;
+  min-height: 125px;
 }
 img {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  height: 200px;
+  margin-top: 24px;
+  height: 150px;
   width: 200px;
+}
+.empty .one {
+  width: 50%;
+}
+.empty .two {
+  border-left: 10px solid white; 
+  width: 50%;
+}
+.empty2 .one {
+  width: 50%;
+}
+.empty2 .two {
+  border-left: 10px solid white; 
+  width: 50%;
 }
 
 
@@ -114,16 +136,15 @@ img {
 }
 .contacts .email {
   text-align: center;
-  width: 40%;
+  width: 33%;
 }  
 .contacts .site {
-  width: 20%;
-  text-align: right;
+  width: 33%;
+  text-align: center;
 }
 .contacts .phone {
   text-align: center;
-  padding-right: -3px;
-  width: 40%;
+  width: 33%;
 }
  
 
